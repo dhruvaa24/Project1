@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.con/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background: url('Picture1.png') no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-color: #f1daba;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center; */
+    /* align-items: center;                                                                                                                                                                                                    */
+    min-height: 100vh;
+}
+
+.container {
+    margin-top: 0px;
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(5, 5, 5, 0.1); */
+    width: 500px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.container .input-grp {
+    position: relative;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.container .input-grp input {
+    background: transparent;
+    font-size: 16px;
+    color: #E8C38F;
+}
+
+.container .input-grp input::placeholder{
+    color: #ffffff;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.input-grp i{
+     position: absolute;
+     right: 40px;
+     top: 11px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #fafbfa;
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #c8caca;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+#gndr select{
+    background: transparent;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+
+#gndr option{
+    color: black;
+}
+
+.lgin{
+    margin: 15px;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-9{
+    width: 75%;
+}
